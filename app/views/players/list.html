@@ -5,14 +5,16 @@
     <li data-ng-include="'views/partials/positionselect.html'"></li>
     <li data-ng-include="'views/partials/limitselect.html'"></li>
   </ul>
-  <table>
+  <table class="table table-hover">
     <tr>
-      <th>Player</th>
-      <th>Position</th>
-      <th>Team</th>
+      <th ng-click="order = 'num'; reverse=!reverse">#</th>
+      <th ng-click="order = 'name'; reverse=!reverse">Player</th>
+      <th ng-click="order = 'pos'; reverse=!reverse">Position</th>
+      <th ng-click="order = 'team'; reverse=!reverse">Team</th>
     </tr>
-    <tr data-ng-repeat="player in players | filter:search | filter:strictsearch:true | limitTo:searchsize.limit">
-      <td>{{ player.name }}<span data-ng-show="player.num"> - #{{ player.num }}</span></td>
+    <tr data-ng-repeat="player in players | filter:search | filter:strictsearch:true | limitTo:searchsize.limit | orderBy:order:reverse">
+      <td>{{ player.num }}</td>
+      <td>{{ player.name }}</td>
       <td>{{ positions[player.pos].abbr }}</td>
       <td>{{ nflteams[player.team].abbr }}</td>
     </tr>

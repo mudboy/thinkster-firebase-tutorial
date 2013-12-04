@@ -18,4 +18,7 @@ angular.module('fantasyApp.controllers.players', ['fantasyApp.services.players']
       $scope.findOnePlayer = function() {
         angularFire(Players.find($routeParams.playerId), $scope, 'player');
       }
+
+      $scope.reverse = false;
+      $scope.order = 'name';
     }]);

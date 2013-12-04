@@ -27,7 +27,7 @@ angular.module('fantasyApp.services.login', ['fantasyApp.services.profileCreator
           }
         },
         createAccount: function(name, email, pass, callback) {
-          angularFireAuth._authClient.createUser(email, pass, function(err, user) {
+          angularFireAuth.createUser(email, pass, function(err, user) {
             if(callback) {
               callback(err, user);
               $rootScope.$apply();

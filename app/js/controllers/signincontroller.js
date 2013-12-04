@@ -4,6 +4,10 @@ angular.module('fantasyApp.controllers.signin', ['fantasyApp.services.login'])
   .controller('SigninCtrl', ['$scope', 'loginService', '$location',
     function($scope, loginService, $location) {
 
+      if (!!$scope.auth) {
+        $location.path('/');
+      }
+
       $scope.$on('angularFireAuth:login', function () {
         $location.path('/');
       })
@@ -18,6 +22,6 @@ angular.module('fantasyApp.controllers.signin', ['fantasyApp.services.login'])
           $scope.err = err||null;
           typeof(callback) === 'function' && callback(err, user);
         });
-      };
+      }
     }])
   

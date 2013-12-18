@@ -6,14 +6,17 @@ angular.module('fantasyApp.services.firebaseRefs', [])
       return {
         leagues: function() {
           return new Firebase(FBURL+'/leagues');
-        }
-      , users: function() {
+        },
+
+        users: function() {
           return new Firebase(FBURL+'/users');
-        }
-      , players: function() {
+        }, 
+
+        players: function() {
           return new Firebase(FBURL+'/players');
-        }
-      , fantasyTeams: function() {
+        }, 
+
+        fantasyTeams: function() {
           return new Firebase(FBURL+'/fantasyTeams');
         }
       }

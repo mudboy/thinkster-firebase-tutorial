@@ -1,8 +1,8 @@
 'use strict';
  
 angular.module('fantasyApp.controllers.players', ['fantasyApp.services.players'])
-  .controller('PlayersController', ['$scope','$routeParams', 'angularFire', 'NFL', 'Players',
-    function ($scope, $routeParams, angularFire, NFL, Players) {
+  .controller('PlayersController', ['$scope','$routeParams', '$firebase', 'NFL', 'Players',
+    function ($scope, $routeParams, $firebase, NFL, Players) {
  
       $scope.positions = NFL.positions;
       $scope.nflteams = NFL.teams;
@@ -12,11 +12,11 @@ angular.module('fantasyApp.controllers.players', ['fantasyApp.services.players']
       $scope.strictsearch = {};
  
       $scope.findPlayers = function() {
-        $scope.players = Players.collection();
+        $scope.players = $firebase(Players.collection());
       }
- 
+            
       $scope.findOnePlayer = function() {
-        angularFire(Players.find($routeParams.playerId), $scope, 'player');
+        $firebase(Players.find($routeParams.playerId)).$bind($scope, 'player');
       }
 
       $scope.reverse = false;

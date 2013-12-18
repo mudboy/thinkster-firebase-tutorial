@@ -1,17 +1,14 @@
 'use strict';
 
 angular.module('fantasyApp.controllers.header', ['fantasyApp.services.login'])
-  .controller('HeaderController', ['$scope', '$location', 'loginService', 'angularFire', 'FBURL', 
+  .controller('HeaderController', ['$scope', '$location', 'loginService', '$firebase', 'FBURL', 
     function($scope, $location, loginService, angularFire, FBURL) {
 
-      $scope.$on("angularFireAuth:login", function() {
+      $scope.$on("$firebaseAuth:login", function() {
         if ($scope.disassociateUserData) { 
           $scope.disassociateUserData();
         } 
-
-        angularFire(new Firebase(FBURL+'/users/'+$scope.auth.id), $scope, 'user').then(function (disassociate) { 
-          $scope.disassociateUserData = disassociate; 
-        });
+        $scope.user = angularFire(new Firebase(FBURL+'/users/'+$scope.auth.user.id));
       });
 
       $scope.logout = function() {

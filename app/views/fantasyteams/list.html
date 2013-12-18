@@ -2,10 +2,10 @@
   <h2>Fantasy Teams</h2>
   <h3>All Teams</h3>
   <ul class="unstyled">
-    <li data-ng-repeat="fantasyTeam in fantasyTeams">
+    <li data-ng-repeat="fantasyTeam in fantasyTeams | orderByPriority">
       <a href="#/fantasyteams/{{ fantasyTeam.$id }}">{{fantasyTeam.name}}</a>
       (<a href="#/fantasyteams/{{ fantasyTeam.$id }}/edit">Edit</a>)
-      (<a href="" data-ng-click="removeFantasyTeam('{{ fantasyTeam.$id }}')" >Remove</a>)
+      (<a href="" data-ng-click="removeFantasyTeam(fantasyTeam.$id)" >Remove</a>)
     </li>
   </ul>
   <br>

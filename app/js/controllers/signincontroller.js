@@ -4,11 +4,11 @@ angular.module('fantasyApp.controllers.signin', ['fantasyApp.services.login'])
   .controller('SigninCtrl', ['$scope', 'loginService', '$location',
     function($scope, loginService, $location) {
 
-      if (!!$scope.auth) {
+      if (!!$scope.auth.user) {
         $location.path('/');
       }
 
-      $scope.$on('angularFireAuth:login', function () {
+      $scope.$on('$firebaseAuth:login', function () {
         $location.path('/');
       })
 

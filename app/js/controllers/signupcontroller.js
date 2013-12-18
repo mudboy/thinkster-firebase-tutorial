@@ -4,7 +4,7 @@ angular.module('fantasyApp.controllers.signup', [])
   .controller('SignupCtrl', ['$scope', 'loginService', '$location',
     function($scope, loginService, $location) {
 
-      if (!!$scope.auth) {
+      if (!!$scope.auth.user) {
         $location.path('/');
       }
       

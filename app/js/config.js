@@ -25,9 +25,9 @@ app.config(['$routeProvider',
     }])
   
   // establish authentication
-  .run(['angularFireAuth', 'FBURL', '$rootScope', 
+  .run(['$firebaseAuth', 'FBURL', '$rootScope', 
     function(angularFireAuth, FBURL, $rootScope) {
-      angularFireAuth.initialize(new Firebase(FBURL), {scope: $rootScope, name: 'auth', path: '/signin'});
+      $rootScope.auth = angularFireAuth(new Firebase(FBURL), {path: '/signin', simple:true});
       $rootScope.FBURL = FBURL;
     }])
 

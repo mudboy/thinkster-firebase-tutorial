@@ -13,7 +13,7 @@
           data-ng-model="fantasyTeam.leagueId" 
           name="league" 
           required="required"
-          data-ng-options="c.$id as c.name for c in leagues">
+          data-ng-options="c.$id as c.name for c in leagues | orderByPriority">
          <option data-ng-show="noFantasyTeam" value="">Choose a league:</option>
         </select>
       </div>

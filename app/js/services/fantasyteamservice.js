@@ -1,11 +1,11 @@
 'use strict';
  
 angular.module('fantasyApp.services.fantasyTeams', [])
-  .factory('FantasyTeams', ['$q', 'angularFireCollection', 'FireRef',
-    function($q, angularFireCollection, FireRef) {
+  .factory('FantasyTeams', ['$q', 'FireRef',
+    function($q, FireRef) {
       return {
         collection: function(cb) {
-          return angularFireCollection(FireRef.fantasyTeams(),cb);
+          return FireRef.fantasyTeams();
         }
       , find: function(fantasyTeamId) {
           return FireRef.fantasyTeams().child(fantasyTeamId);

@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"F",
+				"fantasyApp"
+			],
+			[
+				"e",
+				"angular.equals	AngularJS"
+			],
+			[
 				"$fi",
 				"$firebase"
 			],
@@ -36,10 +44,6 @@
 				"FireRef"
 			],
 			[
-				"F",
-				"FBURL"
-			],
-			[
 				"leag",
 				"leagues"
 			],
@@ -52,18 +56,26 @@
 	"buffers":
 	[
 		{
-			"file": "app/js/controllers/fantasyteamcontroller.js",
+			"file": "app/js/controllers/playerscontroller.js",
 			"settings":
 			{
-				"buffer_size": 1253,
+				"buffer_size": 1074,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/js/services/leagueservice.js",
+			"file": "app/index.html",
 			"settings":
 			{
-				"buffer_size": 823,
+				"buffer_size": 1958,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/leagues/view.html",
+			"settings":
+			{
+				"buffer_size": 239,
 				"line_ending": "Windows"
 			}
 		},
@@ -71,31 +83,55 @@
 			"file": "app/js/controllers/leaguescontroller.js",
 			"settings":
 			{
-				"buffer_size": 1111,
+				"buffer_size": 1245,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/js/services/fantasyteamservice.js",
+			"file": "app/js/services/playerservice.js",
 			"settings":
 			{
-				"buffer_size": 1344,
+				"buffer_size": 417,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/views/fantasyteams/edit.html",
+			"file": "app/js/services/firerefservice.js",
 			"settings":
 			{
-				"buffer_size": 1209,
+				"buffer_size": 592,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/views/fantasyteams/list.html",
+			"file": "app/js/services/loginservice.js",
 			"settings":
 			{
-				"buffer_size": 550,
+				"buffer_size": 1288,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/js/services/leagueservice.js",
+			"settings":
+			{
+				"buffer_size": 871,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/players/list.html",
+			"settings":
+			{
+				"buffer_size": 1007,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/partials/nflteamselect.html",
+			"settings":
+			{
+				"buffer_size": 186,
 				"line_ending": "Windows"
 			}
 		}
@@ -126,28 +162,60 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/F/Projects/github/thinkster-firebase-tutorial",
+		"/F/Projects/github/thinkster-firebase-tutorial/app",
+		"/F/Projects/github/thinkster-firebase-tutorial/app/js",
+		"/F/Projects/github/thinkster-firebase-tutorial/app/js/controllers",
+		"/F/Projects/github/thinkster-firebase-tutorial/app/js/services",
+		"/F/Projects/github/thinkster-firebase-tutorial/app/views",
+		"/F/Projects/github/thinkster-firebase-tutorial/app/views/leagues",
+		"/F/Projects/github/thinkster-firebase-tutorial/app/views/players",
+		"/F/Projects/github/thinkster-firebase-tutorial/scripts"
+	],
 	"file_history":
 	[
-		"/C/Projects/BPM/trunk/GenericDocumentTemplateExport/target/test-classes/output/files/112-Test Document 2.xml",
+		"/F/Projects/github/thinkster-firebase-tutorial/firebase-tutorial.sublime-project",
+		"/C/Users/lewisj/Desktop/restangular.js",
+		"/C/Program Files/EFS Technology/AUTOFORM DM/BPM_2.5.0-SNAPSHOT/virgo-tomcat-server-3.0.3.RELEASE/conf/wrapper.conf",
+		"/C/Program Files/EFS Technology/AUTOFORM DM/BPM_2.5.0-SNAPSHOT/virgo-tomcat-server-3.0.3.RELEASE/config/serviceability.xml",
+		"/F/Projects/github/thinkster-firebase-tutorial/bower.json",
+		"/F/Projects/github/thinkster-firebase-tutorial/scripts/web-server.js",
+		"/C/Program Files/nodejs/nodevars.bat",
+		"/C/Program Files/EFS Technology/AUTOFORM DM/BPM_2.5.0-SNAPSHOT/virgo-tomcat-server-3.0.3.RELEASE/config/datasource.properties",
+		"/C/Program Files (x86)/Trend Micro/OfficeScan Client/Ofcscan.ini",
+		"/C/Program Files/EFS Technology/AUTOFORM DM/BPM_2.5.0-SNAPSHOT/virgo-tomcat-server-3.0.3.RELEASE/conf/web.xml",
+		"/C/Projects/BPM/trunk/GenericDocumentExport/target/test-classes/output/files/1234567891-line-items",
+		"/C/Projects/github/thinkster-firebase-tutorial-orig/app/views/players/list.html",
+		"/C/Projects/github/thinkster-firebase-tutorial/app/js/services/playerservice.js",
+		"/C/Projects/github/thinkster-firebase-tutorial/app/js/controllers/fantasyteamcontroller.js",
+		"/C/Projects/github/thinkster-firebase-tutorial/app/js/config.js",
+		"/C/Projects/github/thinkster-firebase-tutorial/app/js/services/loginservice.js",
+		"/C/Projects/github/thinkster-firebase-tutorial/app/views/fantasyteams/list.html",
+		"/C/Projects/github/thinkster-firebase-tutorial/app/js/services/profilecreator.js",
+		"/C/Projects/github/thinkster-firebase-tutorial/app/views/fantasyteams/edit.html",
+		"/C/Projects/github/thinkster-firebase-tutorial/app/js/controllers/signupcontroller.js",
+		"/C/Projects/github/thinkster-firebase-tutorial/app/js/services/fantasyteamservice.js",
+		"/C/Projects/github/thinkster-firebase-tutorial/app/js/services/leagueservice.js",
+		"/C/Projects/github/thinkster-firebase-tutorial/app/js/controllers/leaguescontroller.js",
+		"/C/Users/lewisj/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Projects/BPM/trunk/GenericDocumentExportXml/target/test-classes/output/files/112-Test Document 2.xml",
+		"/C/Projects/BPM/trunk/GenericDocumentExportXml/target/test-classes/output/files/111-Test Document 1.xml",
 		"/C/Projects/BPM/trunk/GenericDocumentTemplateExport/target/test-classes/output/files/111-Test Document 1.xml",
+		"/F/export/document-614180323365.xml",
+		"/C/Projects/BPM/trunk/GenericDocumentTemplateExport/target/test-classes/output/files/112-Test Document 2.xml",
 		"/C/Projects/BPM/trunk/GenericDocumentTemplateExport/target/test-classes/output/files/111-Test Document 1",
 		"/C/Users/lewisj/Downloads/AutoFORM-Client.txt",
 		"/C/Projects/github/thinkster-firebase-tutorial/app/lib/angular-fire/angularFire.js",
 		"/C/Projects/github/thinkster-firebase-tutorial/bower.json",
 		"/C/Projects/github/thinkster-firebase-tutorial/app/index.html",
-		"/C/Projects/github/thinkster-firebase-tutorial/app/js/config.js",
-		"/C/Projects/github/thinkster-firebase-tutorial/app/js/services/loginservice.js",
 		"/C/Projects/github/thinkster-firebase-tutorial/app/js/controllers/headercontroller.js",
 		"/C/Projects/github/thinkster-firebase-tutorial/app/views/header.html",
-		"/C/Projects/github/thinkster-firebase-tutorial/app/js/controllers/leaguescontroller.js",
-		"/C/Projects/github/thinkster-firebase-tutorial/app/js/services/leagueservice.js",
 		"/C/Projects/github/thinkster-firebase-tutorial/app/views/leagues/list.html",
-		"/C/Projects/github/thinkster-firebase-tutorial/app/views/fantasyteams/list.html",
-		"/C/Projects/github/thinkster-firebase-tutorial/app/js/services/fantasyteamservice.js",
 		"/C/Projects/github/thinkster-firebase-tutorial/app/js/services/firerefservice.js",
 		"/C/Projects/github/thinkster-firebase-tutorial/app/js/controllers/signincontroller.js",
 		"/C/Users/lewisj/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
-		"/C/Users/lewisj/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
 		"/C/Users/lewisj/AppData/Roaming/Sublime Text 3/Packages/AngularJS/AngularJS-sublime-package.sublime-settings",
 		"/C/Users/lewisj/AppData/Local/GitHub/shell.ps1",
 		"/C/Projects/pdmclient/client/branches/8.1/src/Client/NSIS.Bootstrapper/bootstrapper.nsi",
@@ -158,15 +226,10 @@
 		"/C/Users/lewisj/Downloads/PirateBrowser 0.6b/Data/Tor/torrc",
 		"/C/Projects/github/thinkster-firebase-tutorial/app/views/players/list.html",
 		"/C/Projects/github/thinkster-firebase-tutorial/app/js/controllers/playerscontroller.js",
-		"/C/Program Files/EFS Technology/AUTOFORM DM/BPM_2.5.0-SNAPSHOT/virgo-tomcat-server-3.0.3.RELEASE/conf/wrapper.conf",
-		"/C/Program Files/EFS Technology/AUTOFORM DM/BPM_2.5.0-SNAPSHOT/virgo-tomcat-server-3.0.3.RELEASE/config/serviceability.xml",
-		"/C/Projects/github/thinkster-firebase-tutorial/app/js/controllers/signupcontroller.js",
 		"/C/Projects/github/thinkster-firebase-tutorial/test/unit/servicesSpec.js",
 		"/C/Projects/github/thinkster-firebase-tutorial/test/unit/filtersSpec.js",
 		"/C/Projects/github/thinkster-firebase-tutorial/app/views/fantasyteams/view.html",
-		"/C/Projects/github/thinkster-firebase-tutorial/app/views/fantasyteams/edit.html",
 		"/C/Projects/github/thinkster-firebase-tutorial/app/js/app.js",
-		"/C/Projects/github/thinkster-firebase-tutorial/app/js/controllers/fantasyteamcontroller.js",
 		"/C/Projects/github/thinkster-firebase-tutorial/app/views/partials/nflteamselect.html",
 		"/C/Projects/github/thinkster-firebase-tutorial/app/views/partials/positionselect.html",
 		"/C/Projects/github/thinkster-firebase-tutorial/app/views/partials/limitselect.html",
@@ -174,7 +237,6 @@
 		"/C/Projects/github/thinkster-firebase-tutorial/app/views/leagues/view.html",
 		"/C/Projects/github/thinkster-firebase-tutorial/app/views/leagues/edit.html",
 		"/C/Projects/github/thinkster-firebase-tutorial/scripts/playerimport.html",
-		"/C/Projects/github/thinkster-firebase-tutorial/app/js/services/playerservice.js",
 		"/C/Users/lewisj/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/C/Users/lewisj/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Projects/github/thinkster-firebase-tutorial/app/views/nfl/list.html",
@@ -203,6 +265,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"pwd=",
+			"expected, actual",
+			"$scope.auth",
 			"auth",
 			"lastest",
 			"disassoc",
@@ -236,24 +301,24 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/js/controllers/fantasyteamcontroller.js",
+					"file": "app/js/controllers/playerscontroller.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1253,
+						"buffer_size": 1074,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								869,
-								869
+								436,
+								436
 							]
 						],
 						"settings":
@@ -267,52 +332,82 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "app/js/services/leagueservice.js",
+					"file": "app/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 823,
+						"buffer_size": 1958,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								415,
-								415
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "app/js/controllers/leaguescontroller.js",
+					"file": "app/views/leagues/view.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1111,
+						"buffer_size": 239,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								195,
-								195
+								155,
+								169
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/js/controllers/leaguescontroller.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1245,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								717,
+								717
 							]
 						],
 						"settings":
@@ -326,23 +421,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "app/js/services/fantasyteamservice.js",
+					"buffer": 4,
+					"file": "app/js/services/playerservice.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1344,
+						"buffer_size": 417,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								133,
-								133
+								31,
+								58
 							]
 						],
 						"settings":
@@ -355,52 +451,115 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/views/fantasyteams/edit.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1209,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								845,
-								845
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "app/views/fantasyteams/list.html",
-					"semi_transient": false,
+					"file": "app/js/services/firerefservice.js",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 550,
+						"buffer_size": 592,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								439,
-								439
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/js/services/loginservice.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1288,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/js/services/leagueservice.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 871,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
+								96
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/views/players/list.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1007,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								831,
+								831
 							]
 						],
 						"settings":
@@ -413,6 +572,35 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/views/partials/nflteamselect.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 186,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								186,
+								186
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
@@ -487,6 +675,7 @@
 		],
 		"width": 0.0
 	},
+	"selected_group": 0,
 	"settings":
 	{
 	},
